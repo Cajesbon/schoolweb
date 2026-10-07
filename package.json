@@ -1,0 +1,28 @@
+{
+  "name": "school-website-cms",
+  "version": "1.0.0",
+  "description": "Primary school website with a lightweight admin CMS (Node.js, Express, MongoDB, Cloudinary)",
+  "private": true,
+  "main": "server/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "vapid": "node scripts/generate-vapid.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "web-push": "^3.6.7"
+  }
+}
